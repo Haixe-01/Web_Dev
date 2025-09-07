@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+  <link rel="icon" type="image/jpg" href="random shi/smile.jpg" />
+  <title>forums</title>
+</head>
+<body>
+  <form action="index.php" method="get" enctype="multipart/form-data">
+    <label for="username">username:</label>
+    <input
+      type="text"
+      id="username"
+      placeholder="Something123"
+      minlength="6"
+      maxlength="12"
+      required
+    />
+
+    <br />
+
+    <label for="password">password:</label>
+    <input
+      type="password"
+      id="password"
+      placeholder="your password"
+      minlength="8"
+      maxlength="15"
+      required
+    />
+
+    <br />
+
+    <label for="email">email:</label>
+
+    <input
+      type="email"
+      id="email"
+      placeholder="something123@gmail.com"
+      required
+    />
+
+    <br />
+
+    <label for="phone">phone #</label>
+    <input
+      type="tel"
+      id="phone"
+      placeholder="35463-56343"
+      pattern="[0-9]{5}-[0-9]{5}"
+      minlength="10"
+      maxlength="11"
+      required
+    />
+
+    <br />
+
+    <label for="bday">birthdate:</label>
+    <input type="date" id="bday" required />
+
+    <br />
+
+    <label for="quantity">quantity:</label>
+    <input type="number"
+    id="quantity"
+    min="0"
+    max="99"
+    value="0"
+    required
+    >
+
+    <br>
+
+    <label for="file">file</label>
+    <input type="file"
+    id="file"
+    accept="image/png, image/jpg">
+
+    <br>
+
+    <input type="submit" />
+
+    <br />
+
+    <input type="reset" />
+  </form>
+</body>
