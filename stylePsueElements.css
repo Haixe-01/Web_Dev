@@ -1,0 +1,30 @@
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;
+}
+
+p::first-line{
+    background-color: rgb(255, 255, 113);
+}
+
+p::selection{
+    background-color: rgb(78, 75, 75);
+    color: green;
+}
+
+::selection{
+    background-color: rgb(78, 75, 75);
+    color: green;
+}
+
+#apple::marker{
+    content: "🍎";
+}
+
+#banana::marker{
+    content: "🍌";
+}
+
+#orange::marker{
+    content: "🍊";
+}

@@ -1,0 +1,7 @@
+#container{
+    border: 3px solid;
+}
+
+#container + p{
+    background-color: rgb(212, 212, 71);
+}

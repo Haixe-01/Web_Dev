@@ -1,0 +1,28 @@
+a:link{
+    color: rgb(106, 149, 230);
+}
+a:hover{
+    color: rgb(67, 110, 241);
+    font-size: 1.1em;
+}
+a:active{
+    color: blue;
+}
+a:visited{
+    color: grey;
+}
+li:hover{
+     color: rgb(67, 110, 241);
+    font-size: 1.1em;
+}
+li:nth-child(even){
+    background-color: rgba(244, 244, 106, 0.586);
+}
+#greeting p{
+    background-color: aqua;
+    padding: 10px;
+    display: none;
+}
+#greeting:hover p{
+    display: block;
+}

@@ -10,3 +10,17 @@ body{
     float: right;
     margin: 10px;
 }
+
+.box1{
+    border-width: 3px;
+    border-style: solid;
+}
+#img3{
+    height: 70px;
+    float: right;
+}
+
+#img4{
+    height: 70px;
+    float: left;
+}
