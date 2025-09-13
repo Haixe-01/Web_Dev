@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+
+header{
+    background-color: grey;
+    text-align: center;
+    padding: 25px;
+}
+
+nav{
+    background-color: black;
+    height:30px;
+}
+
+main{
+    margin: 15px;
+}
+
+aside{
+    width: 25%;
+    float: left;
+    padding: 20px;
+}
+
+section{
+    width: 35%;
+    float: left;
+    padding: 20px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 20px;
+}
+
+footer{
+    background-color: grey;
+    padding: 25px;
+    display: block;
+    text-align: center;
+    clear: both;
+}
+
+@media  screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+}
+
